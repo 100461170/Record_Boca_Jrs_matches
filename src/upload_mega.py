@@ -9,7 +9,7 @@ password = ""           # Replace with your password
 m = mega.login(email, password)
 
 # Upload the file
-file_path = 'video.mp4'  # Ensure this path is correct
+file_path = ''  # Path to video
 file = m.upload(file_path)
 
 # Get and print the upload link
