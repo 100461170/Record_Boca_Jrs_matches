@@ -7,14 +7,16 @@ mouse = Controller()
 time.sleep(5)
 
 # click play
-mouse.position = (1085, 335)
+# machine dependent
+mouse.position = (957, 330)
 mouse.click(Button.left)
 time.sleep(0.5)  # Optional delay
 
 # Click full screen
-mouse.position = (1432, 527)
+mouse.position = (1314, 523)
 mouse.click(Button.left)
 
+# manual algorithm to get the positions needed
 """ while True:
     # Get the current mouse position
     position = mouse.position
